@@ -1,0 +1,46 @@
+Measurement_Date_and_Time,Type,Sample_Name,Quality_Factor
+"sexta-feira, 17 de abril de 2026 14:44:45",Size,k_1s-100ug_mL 1,0.0
+"sexta-feira, 17 de abril de 2026 14:46:49",Size,k_1s-100ug_mL 2,0.0
+"sexta-feira, 17 de abril de 2026 14:48:52",Size,k_1s-100ug_mL 3,0.0
+"sexta-feira, 17 de abril de 2026 14:49:26",Size,k_1s-100ug_mL-mean,0.0
+"sexta-feira, 17 de abril de 2026 15:12:16",Size,milli_q-water 1,0.0
+"sexta-feira, 17 de abril de 2026 15:41:24",Size,k_1s-1mg_mL 1,0.0
+"sexta-feira, 17 de abril de 2026 15:43:57",Size,k_1s-1mg_mL 2,0.0
+"sexta-feira, 17 de abril de 2026 15:46:30",Size,k_1s-1mg_mL 3,0.0
+"sexta-feira, 17 de abril de 2026 15:47:19",Size,k_1s-1mg_mL-mean,0.0
+"sexta-feira, 17 de abril de 2026 16:03:03",Size,aMEM_10pct-Ctrl 1,0.0
+"sexta-feira, 17 de abril de 2026 16:05:56",Size,aMEM_10pct-Ctrl 2,0.0
+"sexta-feira, 17 de abril de 2026 16:08:48",Size,aMEM_10pct-Ctrl 3,0.0
+"sexta-feira, 17 de abril de 2026 16:13:00",Size,aMEM_10pct-Ctrl-mean,0.0
+"sexta-feira, 17 de abril de 2026 16:27:10",Size,aMEM_10pct-k_1s 1,0.0
+"sexta-feira, 17 de abril de 2026 16:30:02",Size,aMEM_10pct-k_1s 2,0.0
+"sexta-feira, 17 de abril de 2026 16:32:55",Size,aMEM_10pct-k_1s 3,0.0
+"sexta-feira, 17 de abril de 2026 16:42:03",Size,aMEM_10pct-k_1s-mean,0.0
+"sexta-feira, 17 de abril de 2026 16:53:14",Size,aMEM-Ctrl 1,0.0
+"sexta-feira, 17 de abril de 2026 16:58:29",Size,aMEM-Ctrl 2,0.0
+"sexta-feira, 17 de abril de 2026 17:03:44",Size,aMEM-Ctrl 3,0.0
+"sexta-feira, 17 de abril de 2026 17:11:19",Size,aMEM-Ctrl-mean,0.0
+"sexta-feira, 17 de abril de 2026 17:22:00",Size,i_2S-20ug_mL 1,0.0
+"sexta-feira, 17 de abril de 2026 17:29:06",Size,i_2S-20ug_mL 2,0.0
+"sexta-feira, 17 de abril de 2026 17:36:12",Size,i_2S-20ug_mL 3,0.0
+"sexta-feira, 17 de abril de 2026 17:54:56",Size,L_3S-35ug_mL 1,0.0
+"sexta-feira, 17 de abril de 2026 17:58:59",Size,L_3S-35ug_mL 2,0.0
+"sexta-feira, 17 de abril de 2026 18:03:03",Size,L_3S-35ug_mL 3,0.0
+"sexta-feira, 17 de abril de 2026 18:11:32",Size,i_2S-20ug_mL-mean,0.0
+"sexta-feira, 17 de abril de 2026 18:11:52",Size,L_3S-35ug_mL-mean,0.0
+"sexta-feira, 17 de abril de 2026 18:15:05",Size,i_2S-1mg_mL 1,0.0
+"sexta-feira, 17 de abril de 2026 18:17:07",Size,i_2S-1mg_mL 2,0.0
+"sexta-feira, 17 de abril de 2026 18:19:09",Size,i_2S-1mg_mL 3,0.0
+"sexta-feira, 17 de abril de 2026 18:26:00",Size,i_2S-1mg_mL-mean,0.0
+"sexta-feira, 17 de abril de 2026 18:29:28",Size,L_3S-1mg_mL 1,0.0
+"sexta-feira, 17 de abril de 2026 18:32:10",Size,L_3S-1mg_mL 2,0.0
+"sexta-feira, 17 de abril de 2026 18:34:53",Size,L_3S-1mg_mL 3,0.0
+"sexta-feira, 17 de abril de 2026 18:44:33",Size,L_3S-1mg_mL-mean,0.0
+"sexta-feira, 17 de abril de 2026 19:26:46",Size,aMEM_10pct-i_2s 1,0.0
+"sexta-feira, 17 de abril de 2026 19:29:28",Size,aMEM_10pct-i_2s 2,0.0
+"sexta-feira, 17 de abril de 2026 19:32:11",Size,aMEM_10pct-i_2s 3,0.0
+"sexta-feira, 17 de abril de 2026 19:40:17",Size,aMEM_10pct-i_2s-mean,0.0
+"sexta-feira, 17 de abril de 2026 20:01:02",Size,aMEM_10pct-L_3s 1,0.0
+"sexta-feira, 17 de abril de 2026 20:03:34",Size,aMEM_10pct-L_3s 2,0.0
+"sexta-feira, 17 de abril de 2026 20:06:07",Size,aMEM_10pct-L_3s 3,0.0
+"sexta-feira, 17 de abril de 2026 20:15:45",Size,aMEM_10pct-L_3s-mean,0.0
