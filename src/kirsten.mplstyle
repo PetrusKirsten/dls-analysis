@@ -1,0 +1,597 @@
+###############################################################################
+# Kirsten — Arquivo .mplstyle ordenado
+# By: Petrus Kirsten - Ribeirão Preto, Brasil
+###############################################################################
+
+###############################################################################
+# ============================
+#            SUMÁRIO
+# ============================
+#  0 — Configurações internas / backend / interação
+#  1 — Fontes (font)
+#  2 — Figura (figure) e layout
+#  3 — Eixos (axes)
+#  4 — Eixos 3D
+#  5 — Eixo X / configuração de rótulos
+#  6 — Ticks no eixo X
+#  7 — Eixo Y / configuração de rótulos
+#  8 — Linhas (lines)
+#  9 — Scatter plots
+# 10 — Grid
+# 11 — Legenda (legend)
+# 12 — Patches (barras, polígonos, etc.)
+# 13 — Marcadores (markers)
+# 14 — Histograma
+# 15 — Gráfico de erro (errorbar)
+# 16 — Contour / Isolinhas
+# 17 — Pcolor / Pcolormesh
+# 18 — Imagens / mapa de calor / imshow
+# 19 — Boxplot
+# 20 — Plot polar
+# 21 — Math text / fórmulas
+# 22 — Texto (text)
+# 23 — PDF / saída vetorial
+# 24 — SVG (vetorial)
+# 25 — PostScript (PS) / saída vetorial
+# 26 — Salvar figura (savefig)
+# 27 — PGF / LaTeX backend
+# 28 — Animação
+# 29 — Datas / autoformatters / conversores
+# 30 — MacOSX
+# 31 — Paths (trajetórias de linhas)
+# 32 — Hatch (padrão de hachura)
+# 33 — Atalhos de teclado (keymap)
+# 34 — TK / interface com Tkinter
+# 35 — Web / backend WebAgg
+# 36 — Documentação / docstring (hardcopy)
+# 37 — Timezone / relógio
+###############################################################################
+
+
+###############################################################################
+# 0 — Configurações internas / backend / interação
+###############################################################################
+# Modo clássico desativado
+_internal.classic_mode : False
+
+# Backend utilizado para renderização
+# backend : module://matplotlib_inline.backend_inline
+# backend_fallback : True
+
+# Interface interativa desligada (útil em scripts)
+# interactive : True
+
+# Tipo da barra de ferramentas (em GUIs)
+# toolbar : toolbar2
+
+
+###############################################################################
+# 1 — Fontes (font)
+###############################################################################
+font.cursive : Apple Chancery, Textile, Zapf Chancery, Sand, Script MT, Felipa, Comic Neue, Comic Sans MS, cursive
+font.family : sans-serif                 # tipo de fonte principal
+font.fantasy : Chicago, Charcoal, Impact, Western, xkcd script, fantasy
+font.monospace : DejaVu Sans Mono, Bitstream Vera Sans Mono, Computer Modern Typewriter, Andale Mono, Nimbus Mono L, Courier New, Courier, Fixed, Terminal, monospace
+font.sans-serif : Helvetica Neue, New Helvetica, Helvetica, Segoe UI, DejaVu Sans, Arial, sans-serif
+font.serif : DejaVu Serif, Bitstream Vera Serif, Computer Modern Roman, New Century Schoolbook, Century Schoolbook L, Utopia, ITC Bookman, Bookman, Nimbus Roman No9 L, Times New Roman, Times, Palatino, Charter, serif
+font.size : 18.0                          # tamanho padrão da fonte
+font.stretch : normal
+font.style : normal
+font.variant : normal
+font.weight : normal
+
+
+###############################################################################
+# 2 — Figura (figure) e layout
+###############################################################################
+# Controle de layout automático (tight / constrained)
+figure.autolayout : False
+figure.constrained_layout.h_pad : 0.04167
+figure.constrained_layout.hspace : 0.02
+figure.constrained_layout.use : False
+figure.constrained_layout.w_pad : 0.04167
+figure.constrained_layout.wspace : 0.02
+
+# DPI (resolução) da figura
+figure.dpi : 150.0
+# Cor da borda da figura
+figure.edgecolor : white
+# Cor de fundo da figura
+figure.facecolor : white
+
+# Tamanho padrão (largura, altura) em polegadas
+figure.figsize : 6.4, 4.8
+
+figure.frameon : True
+figure.hooks : 
+figure.labelsize : large
+figure.labelweight : normal
+# figure.max_open_warning : 20
+# figure.raise_window : True
+
+# Margens e espaçamentos de subplots
+figure.subplot.bottom : 0.11
+figure.subplot.hspace : 0.2
+figure.subplot.left : 0.125
+figure.subplot.right : 0.9
+figure.subplot.top : 0.88
+figure.subplot.wspace : 0.2
+
+figure.titlesize : medium
+figure.titleweight : bold
+
+
+###############################################################################
+# 3 — Eixos (axes)
+###############################################################################
+axes.autolimit_mode : data              # modo de cálculo automático de limites
+axes.axisbelow : line                   # grid / ticks ficam abaixo das linhas (“line” / “both” / None)
+
+axes.edgecolor : "#3A3A3A"            # cor das bordas dos eixos
+axes.facecolor : "#FFFFFFFF"            # cor de fundo do eixo
+
+axes.formatter.limits : -5, 6           # limite de potência para notação científica
+axes.formatter.min_exponent : 0
+axes.formatter.offset_threshold : 4
+axes.formatter.use_locale : False
+axes.formatter.use_mathtext : False
+axes.formatter.useoffset : True
+
+axes.grid : False                        # por padrão, não exibe grid
+axes.grid.axis : both
+axes.grid.which : both
+
+axes.labelcolor : "#3A3A3A"
+axes.labelpad : 10.0                     # distância entre rótulo e eixo
+axes.labelsize : medium
+axes.labelweight : normal
+
+axes.linewidth : 1.0                   # espessura da linha do eixo
+
+axes.prop_cycle : cycler(color=["#1583ebff", "#f33886ff", "#2adb83ff", "#ffc526ff", "#7f3cb6ff", "#b13a22ff"])  # ciclo de cores para múltiplas linhas
+
+axes.spines.bottom : True
+axes.spines.left : True
+axes.spines.right : True
+axes.spines.top : True
+
+axes.titlecolor : "#3A3A3A"
+axes.titlelocation : center
+axes.titlepad : 10.0                     # espaçamento para o título
+axes.titlesize : small
+axes.titleweight : normal
+axes.titley : None
+
+axes.unicode_minus : True               # usa o sinal “−” unicode em eixos negativos
+
+axes.xmargin : 0.05
+axes.ymargin : 0.05
+axes.zmargin : 0.05
+
+
+###############################################################################
+# 4 — Eixos 3D
+###############################################################################
+axes3d.automargin : False
+axes3d.grid : True
+axes3d.mouserotationstyle : arcball
+axes3d.trackballborder : 0.2
+axes3d.trackballsize : 0.667
+axes3d.xaxis.panecolor : 0.95, 0.95, 0.95, 0.5
+axes3d.yaxis.panecolor : 0.9, 0.9, 0.9, 0.5
+axes3d.zaxis.panecolor : 0.925, 0.925, 0.925, 0.5
+
+
+###############################################################################
+# 5 — Eixo X / configuração de rótulos
+###############################################################################
+xaxis.labellocation : center
+
+
+###############################################################################
+# 6 — Ticks no eixo X
+###############################################################################
+xtick.alignment : center
+xtick.bottom : True
+xtick.color : "#666666ff"
+xtick.direction : out
+
+xtick.labelbottom : True
+xtick.labelcolor : "#3A3A3A"
+xtick.labelsize : medium
+xtick.labeltop : False
+
+xtick.major.bottom : True
+xtick.major.pad : 5
+xtick.major.size : 5
+xtick.major.top : True
+xtick.major.width : 1
+
+xtick.minor.bottom : True
+xtick.minor.ndivs : auto
+xtick.minor.pad : 3.4
+xtick.minor.size : 3.0
+xtick.minor.top : True
+xtick.minor.visible : False
+xtick.minor.width : 0.8
+
+xtick.top : False
+
+
+###############################################################################
+# 7 — Eixo Y / configuração de rótulos
+###############################################################################
+yaxis.labellocation : center
+
+ytick.alignment : center_baseline
+ytick.color : "#666666ff"
+ytick.direction : out
+
+ytick.labelcolor : "#3A3A3A"
+ytick.labelleft : True
+ytick.labelright : False
+ytick.labelsize : medium
+
+ytick.left : True
+
+ytick.major.left : True
+ytick.major.pad : 5
+ytick.major.right : True
+ytick.major.size : 5
+ytick.major.width : 1
+
+ytick.minor.left : True
+ytick.minor.ndivs : auto
+ytick.minor.pad : 3.4
+ytick.minor.right : True
+ytick.minor.size : 3.0
+ytick.minor.visible : False
+ytick.minor.width : 0.8
+
+ytick.right : False
+
+
+###############################################################################
+# 8 — Linhas (lines)
+###############################################################################
+lines.antialiased : True
+lines.color : C0
+lines.dash_capstyle : butt
+lines.dash_joinstyle : round
+lines.dashdot_pattern : 6.4, 1.6, 1.0, 1.6
+lines.dashed_pattern : 3.7, 1.6
+lines.dotted_pattern : 1.0, 1.65
+lines.linestyle : -
+lines.linewidth : 0.8
+lines.marker : None
+lines.markeredgecolor : white
+lines.markeredgewidth : 1.0
+lines.markerfacecolor : auto
+lines.markersize : 6.0
+lines.scale_dashes : True
+lines.solid_capstyle : projecting
+lines.solid_joinstyle : round
+
+
+###############################################################################
+# 9 — Scatter plots
+###############################################################################
+scatter.edgecolors : face
+scatter.marker : o
+
+
+###############################################################################
+# 10 — Grid
+###############################################################################
+grid.alpha : 0.35
+grid.color : "#CCCCCC"
+grid.linestyle : -
+grid.linewidth : 0.5
+
+
+###############################################################################
+# 11 — Legenda (legend)
+###############################################################################
+legend.borderaxespad : 0.5
+legend.borderpad : 0.4
+legend.columnspacing : 2.0
+legend.edgecolor : 0.8
+legend.facecolor : inherit
+legend.fancybox : True
+legend.fontsize : medium
+legend.framealpha : 0.8
+legend.frameon : False
+legend.handleheight : 0.7
+legend.handlelength : 2.0
+legend.handletextpad : 0.8
+legend.labelcolor : "#3A3A3A"
+legend.labelspacing : 0.5
+legend.loc : best
+legend.markerscale : 1.0
+legend.numpoints : 1
+legend.scatterpoints : 1
+legend.shadow : False
+legend.title_fontsize : None
+
+
+###############################################################################
+# 12 — Patches (barras, polígonos, retângulos etc.)
+###############################################################################
+patch.antialiased : True
+patch.edgecolor : black
+patch.facecolor : C0
+patch.force_edgecolor : False
+patch.linewidth : 1.0
+
+
+###############################################################################
+# 13 — Marcadores (markers)
+###############################################################################
+markers.fillstyle : full
+
+
+###############################################################################
+# 14 — Histograma
+###############################################################################
+hist.bins : 10
+
+
+###############################################################################
+# 15 — Gráfico de erro (errorbar)
+###############################################################################
+errorbar.capsize : 6.5
+
+
+###############################################################################
+# 16 — Contour / Isolinhas
+###############################################################################
+contour.algorithm : mpl2014
+contour.corner_mask : True
+contour.linewidth : None
+contour.negative_linestyle : dashed
+
+
+###############################################################################
+# 17 — Pcolor / Pcolormesh (grade colorida)
+###############################################################################
+pcolor.shading : auto
+pcolormesh.snap : True
+
+
+###############################################################################
+# 18 — Imagens / mapa de calor / imshow
+###############################################################################
+image.aspect : equal
+image.cmap : viridis
+image.composite_image : True
+image.interpolation : auto
+image.interpolation_stage : auto
+image.lut : 256
+image.origin : upper
+image.resample : True
+
+
+###############################################################################
+# 19 — Boxplot
+###############################################################################
+boxplot.bootstrap : None
+boxplot.boxprops.color : black
+boxplot.boxprops.linestyle : -
+boxplot.boxprops.linewidth : 1.0
+boxplot.capprops.color : black
+boxplot.capprops.linestyle : -
+boxplot.capprops.linewidth : 1.0
+boxplot.flierprops.color : black
+boxplot.flierprops.linestyle : none
+boxplot.flierprops.linewidth : 1.0
+boxplot.flierprops.marker : o
+boxplot.flierprops.markeredgecolor : black
+boxplot.flierprops.markeredgewidth : 1.0
+boxplot.flierprops.markerfacecolor : none
+boxplot.flierprops.markersize : 6.0
+boxplot.meanline : False
+boxplot.meanprops.color : C2
+boxplot.meanprops.linestyle : --
+boxplot.meanprops.linewidth : 1.0
+boxplot.meanprops.marker : ^
+boxplot.meanprops.markeredgecolor : C2
+boxplot.meanprops.markerfacecolor : C2
+boxplot.meanprops.markersize : 6.0
+boxplot.medianprops.color : C1
+boxplot.medianprops.linestyle : -
+boxplot.medianprops.linewidth : 1.0
+boxplot.notch : False
+boxplot.patchartist : False
+boxplot.showbox : True
+boxplot.showcaps : True
+boxplot.showfliers : True
+boxplot.showmeans : False
+boxplot.vertical : True
+boxplot.whiskerprops.color : black
+boxplot.whiskerprops.linestyle : -
+boxplot.whiskerprops.linewidth : 1.0
+boxplot.whiskers : 1.5
+
+
+###############################################################################
+# 20 — Plot polar
+###############################################################################
+polaraxes.grid : True
+
+
+###############################################################################
+# 21 — Math text / fórmulas
+###############################################################################
+mathtext.bf : sans:bold
+mathtext.bfit : sans:italic:bold
+mathtext.cal : cursive
+mathtext.default : it
+mathtext.fallback : cm
+mathtext.fontset : dejavusans
+mathtext.it : sans:italic
+mathtext.rm : sans
+mathtext.sf : sans
+mathtext.tt : monospace
+
+
+###############################################################################
+# 22 — Texto (text)
+###############################################################################
+text.antialiased : True
+text.color : black
+text.hinting : force_autohint
+text.hinting_factor : 8
+text.kerning_factor : 0
+text.latex.preamble :
+text.parse_math : True
+text.usetex : False
+
+
+###############################################################################
+# 23 — PDF / saída vetorial
+###############################################################################
+pdf.compression : 6
+pdf.fonttype : 3
+pdf.inheritcolor : False
+pdf.use14corefonts : False
+
+
+###############################################################################
+# 24 — SVG (vetorial)
+###############################################################################
+svg.fonttype : path
+svg.hashsalt : None
+svg.id : None
+svg.image_inline : True
+
+
+###############################################################################
+# 25 — PostScript (PS) / saída vetorial
+###############################################################################
+ps.distiller.res : 6000
+ps.fonttype : 3
+ps.papersize : letter
+ps.useafm : False
+ps.usedistiller : None
+
+
+###############################################################################
+# 26 — Salvar figura (savefig)
+###############################################################################
+savefig.bbox : standard
+# savefig.directory : ~
+savefig.dpi : figure
+savefig.edgecolor : auto
+savefig.facecolor : auto
+savefig.format : png
+savefig.orientation : portrait
+savefig.pad_inches : 0.1
+savefig.transparent : False
+
+
+###############################################################################
+# 27 — PGF / LaTeX backend
+###############################################################################
+pgf.preamble :
+pgf.rcfonts : True
+pgf.texsystem : xelatex
+
+
+###############################################################################
+# 28 — Animação
+###############################################################################
+animation.bitrate : -1                  # taxa de bits para gravação de vídeo (-1 = automático)
+animation.codec : h264                  # codec padrão para vídeos
+animation.convert_args : -layers, OptimizePlus
+animation.convert_path : convert
+animation.embed_limit : 20.0            # limiar para incorporar animações em HTML
+animation.ffmpeg_args :
+animation.ffmpeg_path : ffmpeg
+animation.frame_format : png            # formato dos frames intermediários
+animation.html : none
+animation.writer : ffmpeg
+
+
+###############################################################################
+# 29 — Datas / Datas automáticas / conversores
+###############################################################################
+date.autoformatter.day : %Y-%m-%d
+date.autoformatter.hour : %m-%d %H
+date.autoformatter.microsecond : %M:%S.%f
+date.autoformatter.minute : %d %H:%M
+date.autoformatter.month : %Y-%m
+date.autoformatter.second : %H:%M:%S
+date.autoformatter.year : %Y
+date.converter : auto
+# datedate.epoch : 1970-01-01T00:00:00
+date.interval_multiples : True
+
+
+###############################################################################
+# 30 — MacOSX
+###############################################################################
+macosx.window_mode : system
+
+
+###############################################################################
+# 31 — Paths (trajetórias de linhas)
+###############################################################################
+path.effects :
+path.simplify : True
+path.simplify_threshold : 0.111111111111
+path.sketch : None
+path.snap : True
+
+
+###############################################################################
+# 32 — Hatch (padrão de hachura)
+###############################################################################
+hatch.color : black
+hatch.linewidth : 1.0
+
+
+###############################################################################
+# 33 — Atalhos do teclado (keymap)
+###############################################################################
+keymap.back : left, c, backspace, MouseButton.BACK
+keymap.copy : ctrl+c, cmd+c
+keymap.forward : right, v, MouseButton.FORWARD
+keymap.fullscreen : f, ctrl+f
+keymap.grid : g
+keymap.grid_minor : G
+keymap.help : f1
+keymap.home : h, r, home
+keymap.pan : p
+keymap.quit : ctrl+w, cmd+w, q
+keymap.quit_all : 
+keymap.save : s, ctrl+s
+keymap.xscale : k, L
+keymap.yscale : l
+keymap.zoom : o
+
+
+###############################################################################
+# 34 — TK / interface com Tkinter
+###############################################################################
+# tk.window_focus : False
+
+
+###############################################################################
+# 35 — Web / backend WebAgg
+###############################################################################
+# webagg.address : 127.0.0.1
+# webagg.open_in_browser : True
+# webagg.port : 8988
+# webagg.port_retries : 50
+
+
+###############################################################################
+# 36 — Documentação / docstring (em hardcopy)
+###############################################################################
+# docstring.hardcopy : False
+
+
+###############################################################################
+# 37 — Timezone / relógio
+###############################################################################
+# timezone : UTC
