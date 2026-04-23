@@ -262,12 +262,12 @@ lines.dashdot_pattern : 6.4, 1.6, 1.0, 1.6
 lines.dashed_pattern : 3.7, 1.6
 lines.dotted_pattern : 1.0, 1.65
 lines.linestyle : -
-lines.linewidth : 0.8
-lines.marker : None
+lines.linewidth : 0.5
+lines.marker : o
 lines.markeredgecolor : white
-lines.markeredgewidth : 1.0
+lines.markeredgewidth : 0.7
 lines.markerfacecolor : auto
-lines.markersize : 6.0
+lines.markersize : 4.5
 lines.scale_dashes : True
 lines.solid_capstyle : projecting
 lines.solid_joinstyle : round
