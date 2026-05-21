@@ -148,7 +148,7 @@ axes.labelweight : normal
 
 axes.linewidth : 1.0                   # espessura da linha do eixo
 
-axes.prop_cycle : cycler(color=["#1583ebff", "#f33886ff", "#2adb83ff", "#ffc526ff", "#7f3cb6ff", "#b13a22ff"])  # ciclo de cores para múltiplas linhas
+axes.prop_cycle : cycler(color=["#f33886ff", "#1583ebff", "#ffc526ff", "#2adb83ff", "#7f3cb6ff", "#b13a22ff"])  # ciclo de cores para múltiplas linhas
 
 axes.spines.bottom : True
 axes.spines.left : True
